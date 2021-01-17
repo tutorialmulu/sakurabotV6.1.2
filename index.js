@@ -36,8 +36,8 @@ const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN ASU!?
             + 'VERSION:6.1.2\n' // SANA BUAT SENDIRI ENAK BENER LU!!!
             + 'FN:Akmal Admin\n' // NAMA OWNER BOT
-            + 'ORG:Creator SAKURA-BOT;\n' // KASIH CREDITS GUA AKMAL CAPY SU!!!
-            + 'TEL;type=CELL;type=VOICE;waid=628885960825:+62 888-5960-825\n' // GANTI NOMOR LU
+            + 'ORG:Creator SAKURA-BOT;\n' // KASIH CREDITS GUA ACHILL BOYYSU!!!
+            + 'TEL;type=CELL;type=VOICE;waid=6281316105119:+62 813-1610-5119\n' // GANTI NOMOR LU
             + 'END:VCARD'
 prefix = '.'
 blocked = []
