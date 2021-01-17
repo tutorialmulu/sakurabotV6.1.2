@@ -43,9 +43,9 @@ PERJUALKAN!!
 ┣⊱➥ *${prefix}ytsearch* *FAILED❌*
 ┣⊱➥ *${prefix}ytmp3* *FAILED❌*
 ┣⊱➥ *${prefix}ytmp4* *SUCCES✅*
-┣⊱➥ *${prefix}tiktok* *FAILED❌*
-┣⊱➥ *${prefix}tiktokstalk* *FAILED❌*
-┣⊱➥ *${prefix}fototiktok* *FAILED❌*
+┣⊱➥ *${prefix}tiktok* *SUCCES✅*
+┣⊱➥ *${prefix}tiktokstalk* *SUCCES✅*
+┣⊱➥ *${prefix}fototiktok* *SUCCES✅*
 ┣⊱➥ *${prefix}igstalk* *FAILED❌*
 ┣⊱➥ *${prefix}image* *FAILED❌*
 ┣⊱➥ *{prefix}pinterest* *FAILED❌*
