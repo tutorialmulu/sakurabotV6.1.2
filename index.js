@@ -2,10 +2,10 @@
 * Om mau ngapain om, jangan om...
 * Hayo mau ngapainn
 * Jangan diganti kecuali yg gua bolehin!!!
-* By @akmalokz
-* TQTO ada di paling bawah!!!
-* cari report sama request ganti nomor lu!!!
-*/
+* By @achillboyy
+
+
+
 
 const {
     WAConnection,
@@ -34,9 +34,9 @@ const adminNumber = JSON.parse(fs.readFileSync('./src/admin.json'))
 const anime = JSON.parse(fs.readFileSync('./src/anime.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN ASU!?
-            + 'VERSION:3.0\n' // SANA BUAT SENDIRI ENAK BENER LU!!!
+            + 'VERSION:6.1.2\n' // SANA BUAT SENDIRI ENAK BENER LU!!!
             + 'FN:Akmal Admin\n' // NAMA OWNER BOT
-            + 'ORG:Creator HARUKA-BOT;\n' // KASIH CREDITS GUA AKMAL CAPY SU!!!
+            + 'ORG:Creator SAKURA-BOT;\n' // KASIH CREDITS GUA AKMAL CAPY SU!!!
             + 'TEL;type=CELL;type=VOICE;waid=628885960825:+62 888-5960-825\n' // GANTI NOMOR LU
             + 'END:VCARD'
 prefix = '.'
@@ -108,7 +108,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `SAYONARAA... @${num.split('@')[0]}👋* \n_Hati-Hati Dijalan, Kalo Balik Nitip Gorengan Ya_`
+				teks = `SAYONARAA... @${num.split('@')[0]}👋* \n_Hati-Hati Dijalan, Kalo Balik Nitip Gorengan,tahu,bakso,somay,seblak ya><_`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -161,9 +161,9 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["628885960825@s.whatsapp.net"] // GANTI NOMOR LU
-			const adminbotnumber = ["62895603685193@s.whatsapp.net"] // GANTI NOMOR LU
-			const frendsowner = ["6289637595990@s.whatsapp.net"] // GAUSAH DIGANTI!!!
+			const ownerNumber = ["6281316105119@s.whatsapp.net"] // GANTI NOMOR LU
+			const adminbotnumber = ["6281316105119@s.whatsapp.net"] // GANTI NOMOR LU
+			const frendsowner = ["6281316105119@s.whatsapp.net"] // GAUSAH DIGANTI!!!
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -211,7 +211,7 @@ async function starts() {
 				case 'info':
 					me = client.user
 					uptime = process.uptime()
-					teks = `➽ *Nama Bot* : _${me.name}_\n➽ *Nomer Bot* : _@${me.jid.split('@')[0]}_\n➽ *prefix* : _${prefix}_\n➽ *Total Block* : _${blocked.length}_\n➽ *Aktif Sejak* : _${kyun(uptime)}_\n➽ *Instagram* : https://www.instagram.com/akmalokz\n➽ *YouTube* : coming soon\n➽ *Script By* : _Akmal Capy_ [Akmal]\n➽ *Note* : _Ini SC pribadi no minta SC_\n➽ *Sepecial Thangks To* :\n➽ _Allah SWT_ \n➽ _MahankBarBar_ \n➽ _Seluruh member *MyBot Team*_\n➽ _Akmal Capy_\n➽ _MahankBarbar_\n➽ _Affis_\n➽ _Anang_\n➽ _Bryan_\n➽ _Bagas_\n➽ _Ntaa_\n➽ _XP-TN_\n➽_YUKINIKO_\n_DLL_`
+					teks = `➽ *Nama Bot* : _${me.name}_\n➽ *Nomer Bot* : _@${me.jid.split('@')[0]}_\n➽ *prefix* : _${prefix}_\n➽ *Total Block* : _${blocked.length}_\n➽ *Aktif Sejak* : _${kyun(uptime)}_\n➽ *Instagram* :https://instagram.com/achillboyy._?igshid=2myzs6v1a3xy \n➽ *YouTube* : GRATISAN SAJA\n➽ *Script By* : _Achill Boyy_ [Achill]\n➽ *Note* : _Ini SC GRATIS!!_\
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
@@ -353,7 +353,7 @@ async function starts() {
                     costum(pesan, isi, pesan2)
                     break
                 case 'fakereplay':
-                   client.reply(from, 'ange mas', 'mending lari', "0823-877101916")
+                   client.reply(from, 'ange mas', 'mending lari', "0813-16105119")
                    break
                 case 'but':
                     client.reply(from, 'asw', Message.Type.text)
