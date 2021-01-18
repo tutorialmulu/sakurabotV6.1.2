@@ -26,7 +26,7 @@ HARGA 10K
 ┃⊱➥ *UNLOCK SEMUA FITUR!!NO ERROR❌*
 ┃⊱➥ *http://wa.me/6281316105119*
 ┃⊱➥ *OWNER:Achillboyy*             
-┃⊱➥ *STATUS:AKTIF
+┃⊱➥ *STATUS:AKTIF*
 ┃⊱➥ *BARU SAJA DI UPDATE!!*
 ┃⊱➥ *TRAKHIR DI UPDATE (01-17*-2021/14:30)
 ┣━━°─⊱ ❬ *TENTANG BOT* ❭ °━━┓
